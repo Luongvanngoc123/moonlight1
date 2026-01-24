@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./server-helper
+    container_name: anime-backend
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      # Add other environment variables here if needed (e.g. DB connection)
+
+  frontend:
+    build:
+      context: ./desktop-web
+      args:
+        - VITE_API_URL=/api
+    container_name: anime-frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
