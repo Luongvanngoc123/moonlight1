@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "strict": true,
+    /* bypass check node_modules */
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "preserveSymlinks": true,
+    "noEmitOnError": false,
+    /* end */
+    "baseUrl": "./",
+    "types": ["vitest/globals", "unplugin-icons/types/vue", "@types/node"],
+    "esModuleInterop": true,
+    "lib": ["esnext", "DOM"],
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
