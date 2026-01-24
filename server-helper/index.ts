@@ -7,11 +7,12 @@ import { CookieJar } from 'tough-cookie';
 
 const app = new Hono();
 
-// Enable CORS
+// Enable CORS - Allow Vercel and custom domains
 app.use("/*", cors({
-  origin: '*',
+  origin: '*', // Allow all origins (can restrict to Vercel domain later)
   allowHeaders: ['Content-Type', 'Authorization', 'x-requested-with'],
-  allowMethods: ['POST', 'GET', 'OPTIONS']
+  allowMethods: ['POST', 'GET', 'OPTIONS'],
+  credentials: true
 }));
 
 const REFERER_MAP: Record<string, string> = {

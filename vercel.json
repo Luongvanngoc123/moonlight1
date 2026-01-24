@@ -1,0 +1,14 @@
+{
+  "buildCommand": "cd desktop-web && pnpm install && pnpm build",
+  "outputDirectory": "desktop-web/dist/spa",
+  "framework": "vue",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_API_URL": "https://moonlight1-backend.onrender.com"
+  }
+}
