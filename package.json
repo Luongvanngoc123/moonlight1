@@ -1,0 +1,18 @@
+{
+  "name": "moonlight1",
+  "version": "1.0.0",
+  "description": "Anime streaming site",
+  "scripts": {
+    "build:frontend": "cd desktop-web && pnpm install && pnpm build",
+    "build:backend": "cd server-helper && npm install",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start:railway": "npm run build && node railway-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
