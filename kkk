@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+  <html>                                                                     <head>
+      <meta charset="UTF-8">                                                     <title>Lịch hoạt động CLB</title>
+  </head>
+  <body>
+      <table border="1">
+          <caption>Lịch hoạt động CLB Thể thao</caption>
+          <tr style="border:1px solid">
+              <th rowspan="2">Bộ môn</th>
+              <th rowspan="2">GV phụ trách</th>
+              <th colspan="5">Ngày</th>
+          </tr>
+          <tr>
+              <th>Thứ 2</th>
+              <th>Thứ 3</th>
+              <th>Thứ 4</th>
+              <th>Thứ 5</th>
+              <th>Thứ 6</th>
+          </tr>
+          <tr>
+              <td>Bóng đá</td>
+              <td>Thầy Khải</td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Bóng chuyền</td>
+              <td>Cô Lan</td>
+              <td>X</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Bóng rổ</td>
+              <td>Thầy Vũ</td>
+              <td></td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td rowspan="3">Võ thuật</td>
+              <td>Thầy Hoàng - Karatedo</td>
+              <td>X</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Thầy Hùng - Taekwondo</td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Thầy Thắng - Vovinam</td>
+              <td></td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>Bơi</td>
+              <td>Cô Hiền</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>X</td>
+              <td></td>
+          </tr>
+      </table>
+  </body>
+  </html>
